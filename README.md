@@ -1,33 +1,4 @@
-# Greetings!
 
-In this assignment, you will be writing an HTTP server by hand.
-
-Your task is to create an application that acts as a sort of file-access server, using the HTTP protocol to perform the "create, retrieve, update, delete" (CRUD) operations.
-
-## To do this...
-... you must have a copy of this repository in your GitHub account. You can do this one of two ways:
-
-1. **Fork this repository.** From the GitHub repository web page, click "Fork" in the upper-right. This will create a copy of this repository in your own GitHub account. From there do a git clone from your own copy of the GitHub repository. (If you are unsure of the clone syntax, open the new repository in your account from the web, and click the green "Code" button--it will offer the correct syntax to use.)
-
-2. **Clone and re-home this repository.** Open a "Command Prompt" or "Terminal" instance and use:
-
-        git clone https://github.com/tedneward/INFO314-HTTPServer
-
-    ... to do the deed. This will also create a local copy of the project on your machine in a directory called `INFO314-HTTPServer`. You will also need to "re-home" your local copy so it points to your own GitHub account; you can do this by creating a repository of this same name (`INFO314-HTTPServer`) in your GitHub account and then executing `git remote set-url origin https://github.com/[your-ID]/INFO314-HTTPServer.git`.
-
-    In order to store your changes to your own GitHub account, you need to create a new repository on GitHub (call it `INFO314-HTTPServer`), and then change the project's settings to point to that new repository as the remote origin.
-
-        git remote set-url origin https://github.com/[your-ID]/INFO314-HTTPServer.git
-
-    Note, this will appear to succeed whether you got the syntax of the URL correct or not, so do a quick push to make sure it all worked correctly:
-
-        git push
-
-    Git will ask you for your username and password, then (if everything was done correctly), it will upload the code to the new repository, and this is your new "home" for this project going forward. Verify the files are there by viewing your GitHub project through the browser.
-
-    *(Needless to say, it's a lot easier to fork the repo!)*
-
-Now, you can begin to work on the homework code.
 
 ## Stories/rubric
 This assignment is worth 10 points, total. Your server must:
